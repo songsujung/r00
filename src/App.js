@@ -2,6 +2,9 @@ import logo from './logo.svg';
 import './App.css';
 import HelloWorld from './components/HelloWorld';
 import HelloWorld2 from './components/HelloWorld2';
+import LoopEx from './components/LoopEx';
+import LoopEx2 from './components/LoopEx2';
+import ProductList from './components/products/ProductList';
 
 function App() {
 
@@ -13,13 +16,7 @@ function App() {
 
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <HelloWorld product={products[0]}></HelloWorld>
-        <HelloWorld product={products[1]}></HelloWorld>
-        <HelloWorld product={products[2]}></HelloWorld>
-        <HelloWorld2></HelloWorld2>
-      </header>
+      <ProductList/>
     </div>
   );
 }
