@@ -38,7 +38,7 @@
 }
 
 .productList {
-  background-color: #61dafb;
+  background-color: pink;
   list-style: none;
   border: 1px solid brown;
   display: flex;
@@ -47,5 +47,5 @@
 .productList li {
   margin: 3em;
   padding: 2em;
-  background-color: burlywood;
+  background-color: ivory;
 }
